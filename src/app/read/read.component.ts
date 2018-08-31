@@ -25,7 +25,6 @@ export class ReadComponent implements OnInit {
       this.store.dispatch(new RemoveTutorial(name));
    }
 
-  ngOnInit() {
+  ngOnInit() {}
   }
 
-}
